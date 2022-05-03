@@ -34,7 +34,7 @@ function PageOne() {
   const FirstPage = styled.div`
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas: "left header right";
   `;
   return (

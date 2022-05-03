@@ -68,9 +68,7 @@ a {
 .nav-a {
   opacity: 0;
 }
-:hover.nav-a {
-  opacity: 1;
-}
+
 .underline {
   border-bottom: 1px solid white;
 }
@@ -168,15 +166,15 @@ form {
   transform: translateX(30px);
   opacity: 0;
 }
-@media (max-width: 600px) {
-  .navbar ul li a span {
-    display: none;
+@media (min-width: 1000px) {
+  .navbar ul li .dot .active {
+    opacity: 1;
+  }
+  .navbar ul li:hover .dot span {
+    opacity: 1;
   }
 }
-.navbar ul li:hover .dot span {
-  transform: translateX(0px);
-  opacity: 1;
-}
+
 .navbar ul li .dot::before,
 .navbar ul li .dot::after {
   content: "";

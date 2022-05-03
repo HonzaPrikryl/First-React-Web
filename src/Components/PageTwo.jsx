@@ -30,15 +30,13 @@ function PageTwo() {
         <p className="textP">
           I‘m young frontend developer based in Ostrava who creates{" "}
           <span className="underline">modern</span> and{" "}
-          <span className="underline">simple</span> websites.
+          <span className="underline">simple</span> websites {"&"} aplications
         </p>
       </Text>
       <SkillBar />
       <Title2>Other skills</Title2>
       <Text>
-        <p className="textP">
-          Webpack, TypeScript, SEO, jQuery, Git, Material UI, Boostrap, Sass
-        </p>
+        <p className="textP">TypeScript, Node, Git, Boostrap, Sass, SEO</p>
       </Text>
     </SecondSection>
   );
